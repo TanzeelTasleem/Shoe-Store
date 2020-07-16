@@ -1,0 +1,16 @@
+.container{
+  --slider-height-percentage: 45%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 3px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #4d524e;
+  --control-button-width: 10%;
+  --control-button-height: 20%;
+  --control-button-background: transparent;
+  --control-bullet-color: #4d524e;
+  --control-bullet-active-color: #4d524e;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 6px;
+  }
+

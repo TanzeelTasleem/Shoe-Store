@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import {BrowserRouter as Router} from 'react-router-dom'
+import { GlobalProvider } from './context/globalContext';
+import { Header } from './components/header/header';
+import { Footer } from './components/Footer/Footer';
 ReactDOM.render(
+
   <React.StrictMode>
-    <App />
+  <GlobalProvider>
+    <Router>
+      <Header/>
+      <App/>
+      <Footer/>
+    </Router>
+  </GlobalProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
