@@ -8,10 +8,7 @@ import { useNavigate } from 'react-router-dom';
 export const Footer = () => {
     const navigate = useNavigate()
     return (
-        <footer style={{  
-            position: "relative",
-            bottom: "0",
-            width: "100%",        }} >
+        <footer>
         <Box height="120px" width="100%" bgcolor="black" display="flex" flexWrap="wrap" justifyContent="space-around" alignItems="flex-start" >
             <Box pt={2} >
                 <Typography variant="h6" style={{textTransform:"capitalize",color:"white"}} >contact us </Typography>

@@ -15,7 +15,7 @@ export const ProductDetail = () => {
         )
     }
     return (
-        <Box mt={5} overflow="hidden" height="100%">
+        <Box mt={5} overflow="hidden">
             {
                 item.map((item)=>{
                     return(
