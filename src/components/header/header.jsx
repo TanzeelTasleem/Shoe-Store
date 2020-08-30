@@ -43,7 +43,7 @@ export const Header =()=>{
 
 
     return(
-        <Box>
+        <Box onMouseOut={()=>{setDrawer(false)}}>
             <AppBar position="static" style={{backgroundColor:"#090a0a"}} >
                 <Toolbar className={classes.toolbar}>
                         <Button onClick={()=>{navigate('/')}} className={classes.button}>
